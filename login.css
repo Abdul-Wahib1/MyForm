@@ -1,0 +1,145 @@
+ body {
+     background-image: url(../Assets/ezgif.com-video-to-webp-converter.webp);
+     background-size: cover;
+     position: relative;
+     background-repeat: no-repeat;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     height: 100vh;
+     justify-content: center;
+ }
+
+ .overlay {
+     position: absolute;
+     inset: 0;
+     background-color: rgba(0, 0, 0, 0.781);
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Poppins, sans-serif;
+ }
+
+ .form {
+     position: relative;
+     z-index: 2;
+
+     width: 355px;
+
+     background: #1610244f;
+     border-radius: 26px;
+     box-shadow: 0 0 17px #8A2BE2,
+         0 0 50px rgba(138, 43, 226, .35);
+
+     padding: 30px 25px;
+ }
+
+ .lock {
+
+     width: 45px;
+     height: 45px;
+
+     border-radius: 50%;
+
+     background: #7A1FFF;
+
+     margin: auto;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     color: white;
+     font-size: 28px;
+
+     box-shadow: 0 0 20px #8A2BE2;
+
+ }
+
+ .lock i {
+     font-weight: 900;
+ }
+
+ .form h1 {
+     margin-top: 20px;
+     color: white;
+     text-align: center;
+     font-size: 38px;
+     letter-spacing: 1.2px;
+ }
+
+ .label {
+     color: white;
+     font-size: 15px;
+     display: block;
+     margin-bottom: 8px;
+ }
+
+ .input-div {
+     height: 42px;
+     display: flex;
+     align-items: center;
+     padding: 0px 10px;
+     border: 1px solid #4b3569;
+     border-radius: 10px;
+     margin-bottom: 10px;
+     transition: 0.3s ease all;
+ }
+
+ .input-div:hover {
+     box-shadow: 0 0 19px #8A2BE2,
+         0 0 25px rgba(141, 56, 219, 0.35);
+     transform: scale(1.0100);
+ }
+
+ .input-div i {
+     color: #8A2BE2;
+     font-size: 15px;
+ }
+
+ .input-div .input {
+     background: none;
+     border: none;
+     outline: none;
+     width: 100%;
+     color: white;
+     flex: 1;
+     margin-left: 8px;
+     font-size: 17px;
+ }
+
+ button {
+     width: 100%;
+     font-size: 20px;
+     font-weight: bold;
+     border-radius: 12px;
+     /* padding: 8px 0px; */
+     border: none;
+     height: 46px;
+     background: linear-gradient(143deg, #7A1FFF, #f44bff);
+     color: white;
+     cursor: pointer;
+     transition: 0.3s ease all;
+ }
+
+ button:hover {
+     transform: translateY(-2px);
+     box-shadow: 0 0 15px #A855F7,
+         0 0 15px #e738f3;
+ }
+
+ .form p{
+    color: #a7a5a5;
+        margin: 14px 0;
+        text-align: center;
+        font-size: 14px;
+ }
+
+ p a{
+    color: #b96dff;
+        text-decoration: none;
+        font-size: 15px;
+    }
